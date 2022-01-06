@@ -1,0 +1,18 @@
+<!-- 
+  Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e
+  quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.
+  Exemplo:
+    Valor da conta: R$ 90.00
+    Número de clientes: 3
+    Valor por cliente: R$ 30.00
+-->
+
+<meta charset="UTF-8" />
+
+<script>
+  var valorConta = Number(prompt("Qual o valor total da conta?"));
+  var numeroClientes = Number(prompt("Qual o número de clientes na mesa?"));
+  var valorPorCliente = (valorConta / numeroClientes).toFixed(2);
+
+  alert("O valor por cliente é de R$ " + valorPorCliente);
+</script>
